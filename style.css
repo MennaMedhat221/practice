@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  opacity: 0.9;
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  text-align: center;
+}
+header {
+  height: 69px;
+  padding: 10px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: black;
+  z-index: 2;
+}
+img.logo {
+  height: 50px;
+}
+nav {
+  display: flex;
+  width: 450px;
+  height: 69px;
+  flex-flow: row;
+  align-items: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navlinks a {
+  color: seashell;
+  font-size: 22px;
+  margin-right: 15px;
+}
+.container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 1200px 700px;
+  height: 700px;
+  width: 100%;
+}
+.text {
+  background: black;
+  display: flex;
+  flex-flow: column;
+  padding: 5px 5px;
+  position: absolute;
+  width: 100%;
+  height: 140px;
+  align-content: center;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.tea-month {
+  width: 100%;
+  margin: 15px 0;
+  text-align: center;
+}
+.tea-month h1 {
+  line-height: 40px;
+}
+
+.image-collection {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 40px;
+  row-gap: 40px;
+  margin: 50px 0;
+}
+#one,
+#two,
+#three,
+#four,
+#five {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 300px;
+  height: 200px;
+  align-content: center;
+}
+span {
+  padding: 10px;
+  font-size: 22px;
+}
+.main {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  min-height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 90%;
+  margin: 60px auto;
+  align-items: center;
+  text-align: center;
+}
+
+.main h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.downtown,
+.bayside,
+.oklade {
+  background-color: black;
+  width: 300px;
+  height: 310px;
+  padding-top: 20px;
+  line-height: 40px;
+  margin-bottom: 10px;
+  color: #ffffffbe;
+  
+}
+.location-divs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  column-gap: 40px;
+  margin-top: 15px;
+}
+.location-divs h3 {
+  font-size: 30px;
+}
+.location-divs h6 {
+  font-size: 22px;
+}
+footer  {
+   color: #ffffffbe;
+   line-height: 40px;
+}
+footer h5{
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.copyright {
+    text-align: left;
+    padding-left: 20px;
+}
